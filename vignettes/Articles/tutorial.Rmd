@@ -24,7 +24,7 @@ addArchRThreads(threads = 16)
 
 The Hematopoeisis tutorial data can be downloaded using the `getTutorialData()` function. The tutorial data is approximately 0.5 GB in size. If you have already downloaded the tutorial in the current working directory, ArchR will bypass downloading.
 ```{r eval=FALSE}
-inputFiles <- getTutorialData("Hematopoiesis")
+inputFiles <- getTutorialData("hematopoiesis")
 inputFiles
 ```
 > \##                                       scATAC_BMMC_R1  
